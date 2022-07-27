@@ -7,4 +7,4 @@ phases:
   
   build:
     commands:
-      - terraform apply -var-file="dev-app.tfvars" -var="createdBy=agueda" --auto-approve
+      - terraform apply -var-file="dev-app.tfvars" --auto-approve
