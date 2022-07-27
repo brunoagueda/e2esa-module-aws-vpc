@@ -2,6 +2,12 @@
 # Common Variables
 # -------------------------------------------
 
+variable "createdBy" {
+  description = "Resource creator"
+  type        = string
+  default     = null
+}
+
 variable "aws_region" {
   description = "AWS infrastructure region"
   type        = string
